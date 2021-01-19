@@ -1,0 +1,425 @@
+/****************
+Global css start from here
+****************/
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/****************
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+****************/
+a{
+	text-decoration: none;
+}
+/****************
+Navbar css start from here
+****************/
+.nav-bar{
+	background-color: black;
+	width: 100%;
+	padding: 8px 0px;
+}
+.nav-item a{
+	color: #b0b0b0 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.container-fluid ul{
+}
+.container-fluid ul li{
+	padding: 0px 15px;
+}
+
+/****************
+Banner css start from here
+*************/
+.banner{
+	background-image: url(../img/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+.banner-text{
+	width: 86%;
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-text img{
+		margin-bottom: 24px;
+}
+.line {
+	height: 3px !important;
+	width: 73px	!important;
+	background-color: white !important;
+	margin-bottom: 32px;
+}
+.banner-text h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 36px;
+	margin-bottom: 32px;
+	width: 73%;
+}
+.banner-text p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 42px;
+	width: 67%;
+}
+.banner-text button{
+	width: 20%;
+	padding: 5px 0px;
+	background-color: transparent;
+	border:1px solid white;
+	color: white;
+}
+.banner-text button:hover{
+	background-color: #ff9b51;
+	border:1px solid #ff9b51;
+}
+.card-area{
+	background-color: white;
+	width: 68%;
+    margin-top: 168px;
+    margin-left: 82px;  
+ 	border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+ }
+.card-header{
+	background-color: #f5f5f5 !important;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 5px;
+}
+.card-header h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: black;
+	font-size: 20px;
+}
+.card-header span{
+	text-transform: uppercase;
+	color: #ff9b51;
+	font-size: 20px;
+}
+.card-body{
+	width: 90%;
+	margin: auto;
+	padding: 1.5rem 1rem;
+}
+.card-body input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	color:#cccccc;
+	padding-top: 24px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.card-body input:focus{
+	outline: none;
+}
+.card-body input::placeholder{
+	color: #cccccc;
+}
+.card-footer{
+	background-color: #ff9b51;
+	padding: 0px;
+}
+.card-footer input{
+	width: 100%;
+	border:none;
+	background-color: transparent;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color:#f5f5f5;
+	font-size: 15px;
+	padding: 12px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+/*****************
+section1 css start
+*****************/
+.section1{
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+.desc{
+		width: 83%;
+}
+.desc h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color:#404040;
+	font-size: 20px;
+}
+.desc p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a2a3a6;
+	font-size: 14px;
+}
+.icon1{
+	margin-top: 21px;
+	letter-spacing: 24px;
+}
+.icon1 i{
+	width: 10%;
+	font-size: 42px;
+	color: #cccccc;
+}
+
+/*****************
+section2 css start
+*****************/
+.section2{
+	width: 100%;
+	background-color:#f5f5f5;
+	padding: 60px 0px;
+}
+.section2 ul li{
+	list-style: none;
+    height: 90px;
+    width: 88px;
+    margin-bottom: 2px;
+    line-height: 90px;
+    text-align: center;
+}
+.section2 ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 15px;
+}
+.active-tab{
+	background-color: #ff8b38 !important;
+}
+.tab1{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color:#333333; 
+}
+.tab2{
+	background-color: #333333;
+}
+.tab3{
+	background-color: #333333;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.tab-desc{
+	margin-left: 10px;
+}
+.tab-desc h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: black;
+	font-size: 20px;
+}
+.tab-desc p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a2a3a6;
+	font-size: 14px;
+	margin-top: 23px;
+	width: 77%;
+}
+.tab-desc button{
+	width: 21%;
+    padding: 8px 4px;
+    background-color: #ff8b38;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: 16px;
+}
+.tab-img img{
+	width: 100%;
+}
+/*****************
+section 3 css start 
+******************/
+.section-3{
+	width: 100%;
+	padding: 130px;
+}
+.photo1-desc h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.tomatoline{
+	height: 3px;
+	width: 67px;
+	background-color:#ff8b38 !important;
+	margin-bottom: 20px;
+}
+.photo1-desc p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	margin-bottom: 40px;
+	width: 65%;
+}
+.icon1-desc p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	margin-bottom: 30px;
+}
+.icon1-desc h3{
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.icon2-desc h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.icon2-desc p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	width: 68%;
+}
+.icon-1{
+	
+    border: 2px solid #ff8b38;
+    border-radius: 94px;
+    margin-left: 15px;
+    margin-right: 18px;
+    padding: 8px 8px;
+    margin-top: 18px;
+
+}
+.icon-1 i{
+	font-size: 22px;
+	color: #ff8b38;
+}
+
+.icon-2{
+	
+    border: 2px solid #ff8b38;
+    border-radius: 94px;
+    margin-left: 15px;
+    margin-right: 18px;
+    padding: 8px 8px;
+}
+.icon-2 i{
+	font-size: 22px;
+	color: #ff8b38;
+}
+/*******************
+section 4 css start
+*******************/
+.section4{
+	width: 100%;
+	padding: 40px;
+	background-color:#f5f5f5;
+
+}
+.img1-desc{
+	margin-top: 25px;
+}
+.img1-desc h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.img1-desc h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	margin-bottom: 30px;
+	width: 70%;
+}
+.img1-desc p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	margin-bottom: 30px;
+	width: 70%;
+}
+/**************************
+section 5 css start
+***************************/
+.section5{
+	width: 100%;
+	padding: 60px;
+}
+.part1{
+	text-align: center;
+}
+.part1 h2{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    font-size: 36px;
+}
+.tomatoline2{
+	margin: auto;
+	height: 3px;
+	width: 65px;
+	background-color:#ff8b38 !important;
+	margin-top: 20px;
+}
+.part1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.part2 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.part2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #a4a5a8;
+	margin-top: 20px;
+	text-align: center;
+	width: 81%;
+	margin-left: 39px;
+}
+.iconlast{
+
+    border: 2px solid #ff8b38;
+    border-radius: 94px;
+    text-align: center;
+    width: 19%;
+    font-size: 42px;
+    color: #ff8b38;
+    padding: 5px;
+	margin-left: 170px;
+}
